@@ -8,6 +8,9 @@
     "name": "Dag Einar Monsen",
     "email": "me@dag.im"
   },
+  "scripts": {
+    "test": "grunt"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/monsendag/rjs-build-hasher"
