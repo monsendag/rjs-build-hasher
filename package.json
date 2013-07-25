@@ -1,0 +1,29 @@
+{
+  "name": "rjs-build-hasher",
+  "version": "0.0.1",
+  "description": "Appends hashes to bundles built by require.js optimizer.",
+  "homepage": "https://github.com/monsendag/rjs-build-hasher",
+  "bugs": "https://github.com/monsendag/rjs-build-hasher/issues",
+  "author": {
+    "name": "Dag Einar Monsen",
+    "email": "me@dag.im"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monsendag/rjs-build-hasher"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.4.4"
+  },
+  "dependencies": {
+    "pegjs": "~0.7.0",
+    "lodash": "~1.3.1",
+  }
+}
