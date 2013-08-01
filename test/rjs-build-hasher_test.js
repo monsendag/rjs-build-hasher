@@ -24,13 +24,10 @@ var hasher = require('../lib/rjs-build-hasher.js');
 
 exports['rjs-build-hasher'] = {
   setUp: function(done) {
-    // setup here
     done();
   },
   'no build path': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(hasher({}, null), 'awesome', 'should be awesome.');
+    test.throws(hasher(), "Build path not found.", 'Build path not found.');
     test.done();
   }
 };
