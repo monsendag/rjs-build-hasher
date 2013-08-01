@@ -27,7 +27,10 @@ exports['rjs-build-hasher'] = {
     done();
   },
   'no build path': function(test) {
-    test.throws(hasher(), "Build path not found.", 'Build path not found.');
+    test.throws(function() {
+        hasher();
+    }, Error, "Build path not found.");
+
     test.done();
   }
 };
