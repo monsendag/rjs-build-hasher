@@ -1,6 +1,6 @@
 {
   "name": "rjs-build-hasher",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Appends hashes to bundles built by require.js optimizer.",
   "homepage": "https://github.com/monsendag/rjs-build-hasher",
   "bugs": "https://github.com/monsendag/rjs-build-hasher/issues",
