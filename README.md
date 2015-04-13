@@ -34,7 +34,9 @@ grunt.initConfig({
 					});
 					
 					// save info about built files to configuration
-            grunt.file.write('config/built-modules.json', JSON.stringify(bundles, null, 2));
+					grunt.file.write('config/built-modules.json', JSON.stringify(bundles, null, 2));
+					
+					done();
 
 ```
 
