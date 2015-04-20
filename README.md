@@ -47,4 +47,4 @@ Accepting pull requests. Will appreciate it if you add unit tests for any new or
 See commit history.
 
 ## License
-Copyright (c) 2014. Licensed under the MIT license.
+Copyright (c) 2015. Licensed under the MIT license.
